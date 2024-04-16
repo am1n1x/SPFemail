@@ -1,0 +1,85 @@
+* {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+        }
+        .container {
+        width: 100%;
+        max-width: 1200px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: auto;
+        }
+        /* Стили для шапки */
+        .header {
+            background-color: #131F2F;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+        }
+        /* Стили для формы */
+        .email-form {
+            max-width: 400px;
+            margin-top: 50px;
+            padding: 30px;
+            border: 1px solid #01294C;
+            border-radius: 5px;
+        }
+        .email-form label {
+            display: block;
+            margin-bottom: 10px;
+            margin: auto;
+            color: #01294C;
+            font-size: 24px;
+        }
+        .email-form input[type="email"] {
+            width: 100%;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            padding-right: 0px;
+            border: 1px solid #01294C;
+            border-radius: 5px;
+        }
+        .email-form button {
+    background-color: #D47E4F;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Добавляем transition для анимации */
+}
+
+.email-form button:hover {
+    background-color: #BF6E40; /* Изменяем цвет при наведении */
+}
+
+.email-form button:active {
+    background-color: #8E4B2E; /* Изменяем цвет при нажатии */
+}
+
+        /* Стили text*/
+        .text_style_blue {
+            margin-top: 50px;
+            color: #01294D;
+            font-size: 20px;
+        }
+        .send {
+            margin-top: 10px;
+        }
+        .about-app {
+            margin-top: 50px;
+            color: #187AA9;
+            font-size: 16px;
+        }
+        .page_flex_between{
+            display: flex;
+            justify-content: space-between;
+        }
+        .page_flex_center{
+            display: flex;
+            justify-content: center;
+        }
